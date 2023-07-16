@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+      <!-- PHẦN 1 -->
+      <h1>Sở Thích Của Bạn</h1>
+      <form>
+          <div>
+              <p>Họ và tên</p>
+              <input type="text" name="yourname"/>
+      
+          <div>
+              <p>Email</p>
+              <input type="text" name="Email"/>
+          </div>
+         
+          <div>
+              <p>Sở thích</p>
+              <input type="checkbox" name="hobby" value="sport"/>Thể thao
+              <input type="checkbox" name="hobby" value="music"/>Âm nhạc
+              <input type="checkbox" name="hobby" value="book"/>Đọc sách
+              <input type="checkbox" name="hobby" value="web"/>Lướt web
+              <input type="checkbox" name="hobby" value="game"/>Chơi game
+              <input type="checkbox" name="hobby" value="film"/>Điện ảnh
+              <input type="checkbox" name="hobby" value="travel"/>Du lịch
+          </div>
+         
+          <div>
+              <br><input type="submit" name="submitform"/> 
+              <input type="reset" name="resetform"/> 
+           </div>
+      </form>
+  
+      <!-- PHẦN 2 -->
+      <h1>Đăng Ký Học Viên</h1>
+      <form>
+          <div>
+              <p>Họ và tên</p>
+              <input type="text" name="yourname"/>
+          </div>
+          
+          <div>
+              <p>Ngày sinh</p>
+              <input type="date" name="birthday"/>
+          </div>
+         
+          <div>
+              <p>Giới tính</p>
+              <input type="radio" name="gender"/>Nam
+              <input type="radio" name="gender"/>Nữ
+          </div>
+      </form>
+      
+      <div>
+          <br><p>Địa chỉ</p>
+          <form method="post">
+              <textarea cols="50" rows="5"></textarea>
+          </form>
+      </div>
+      
+      <form>
+          <div>
+              <p>Lớp</p>
+              <select name="class">
+                  <option value="A">Lớp A</option>
+                  <option value="B">Lớp B</option>
+                  <option value="C">Lớp C</option>
+              </select>
+          </div>
+  
+          <div>
+              <p>Email</p>
+              <input type="text" name="Email"/>
+          </div>
+  
+          <div>
+              <p>Số điện thoại</p>
+              <input type="text" name="phone"/>
+          </div>
+  
+          <div>
+              <br><input type="submit" name="submit" />
+              <input type="reset" name="reset" />
+          </div>
+      </form>       
+  </body>
+</html>
